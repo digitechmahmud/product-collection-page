@@ -1,0 +1,47 @@
+body{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+.popular-section h1{
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+}
+.popular-collections {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+}
+.popular-collection {
+    margin: 5px;
+    background-color: lightgoldenrodyellow;
+    box-shadow: 10px 10px 14px gray;
+    border: 2px solid lightsalmon;
+    border-radius: 10px;
+    padding-top: 20px;
+    
+}
+.popular-collection img{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.popular-collection-info{
+    margin-left: 8%;
+}
+.collection-price{
+    font-weight: 700;
+}
+.fa-star.filled{
+    color: rgb(235, 208, 6);
+}
+.fa-star-half-stroke{
+    color: rgb(235, 208, 6);
+}
+.collection-details {
+    width: 80%;
+}
